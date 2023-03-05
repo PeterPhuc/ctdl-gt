@@ -78,7 +78,7 @@ void Insert_Last(LIST &l, NODE*p){       //Them vao cuoi danh sach
     }else{
 		l.Last -> next = p;
 		l.Last = p;
-	}
+	} 
 }
 
 void Delete_First(LIST &l){
@@ -309,8 +309,8 @@ int main(){
     Creat_List(l,p);
     ShowList(l);
     
-    int maxs = MaxSNT(l);
-    cout<<"\n"<<maxs;
+//    int maxs = MaxSNT(l);
+//    cout<<"\n"<<maxs;
     
    /* NODE*nut = Create_Node();
     
